@@ -5,6 +5,7 @@ GO
 -- STEP 1: INSTEAD OF UPDATE TRIGGER
 -- Purpose: Prevent updating Primary Key (EmpId)
 ------------------------------------------------------------
+
 CREATE OR ALTER TRIGGER trg_Block_EmpId_Update
 ON dbo.Employees
 INSTEAD OF UPDATE
